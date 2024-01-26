@@ -1,0 +1,16 @@
+Step 1: Create a virtual environment
+python -m venv venv
+
+Step 2: Activate the virtual environment
+venv\Scripts\activate
+
+Step 3: Install jupyter kernel for the virtual environment using the following command:
+ipython kernel install --user --name=venv
+
+Step 4: Select the installed kernel when you want to use jupyter notebook in this virtual environment
+
+
+Desinstalando o kernel do virtual env
+jupyter-kernelspec uninstall venv
+
+
