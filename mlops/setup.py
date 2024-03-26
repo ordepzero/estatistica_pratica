@@ -4,12 +4,12 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 
-__version__ = "0.0.0"
+__version__ = "0.0.1"
 
-REPO_NAME = "End-to-end-Text-Summarization"
-AUTHOR_USER_NAME = "entbappy"
+REPO_NAME = "estatistica_pratica/tree/main/mlops"
+AUTHOR_USER_NAME = "ordepzero"
 SRC_REPO = "textSummarizer"
-AUTHOR_EMAIL = "entbappy73@gmail.com"
+AUTHOR_EMAIL = "ulissesph@gmail.com"
 
 setuptools.setup(
     name=SRC_REPO,
